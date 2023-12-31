@@ -1,0 +1,345 @@
+body {
+  background: linear-gradient(180deg, #180328 9.44%, #332142 100%);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.right-col {
+  float: right;
+  margin-right: 6%;
+  margin-top: -100px;
+  display: flex;
+  align-items: center;
+}
+#icon {
+  width: 80px;
+  cursor: pointer;
+}
+
+.img {
+  background-image: url("../images/SP9d4tji9Awwfasugxfy6h.jpg");
+  background-size: 100% 100%;
+  object-fit: contain;
+  width: 100%;
+  height: 100vh;
+}
+.indexTitle {
+  color: #202020e2;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: -48%;
+}
+
+.homebtn {
+  font-family: "Times New Roman", Times, serif;
+  background-color: #ffffff79;
+  color: #000000;
+  font-weight: 500;
+  font-size: 20px;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 37px;
+  cursor: pointer;
+  transition: all 600ms ease;
+  transition: transform 0.2s ease-in-out;
+
+  margin: 20px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.homebtn:hover {
+  background-color: #fc0404b9;
+  color: #000000;
+  transform: scale(1.2);
+}
+
+.backbtn {
+  font-family: "Times New Roman", Times, serif;
+  background-color: #ffffff79;
+  color: #000000;
+  font-weight: 500;
+  font-size: 20px;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 37px;
+  cursor: pointer;
+  margin-top: 7%;
+  transition: all 600ms ease;
+  transition: transform 0.2s ease-in-out;
+  margin-right: 10px;
+  margin: 20px;
+}
+
+.backbtn:hover {
+  background-color: #fc0404b9;
+  color: #000000;
+  transform: scale(1.2);
+}
+
+#quiz-image {
+  width: 422px;
+  height: 422px;
+}
+
+.container {
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.navbar {
+  height: 15vh;
+  padding: 0 2rem;
+}
+
+.links {
+  margin-right: 4rem;
+  font-size: 30px;
+}
+
+.links > a {
+  color: white;
+  margin-right: 2rem;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+/* Login Page Styles */
+
+.form-wrapper {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 36%;
+  height: 80vh;
+  padding: 50px;
+  background-color: rgba(255, 255, 255, 0.119);
+  border-radius: 42px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.813);
+  font-family: "Times New Roman", Times, serif;
+}
+
+.form-group {
+  margin-bottom: 15%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.form-align {
+  margin-top: 30px;
+  font-size: x-large;
+  font-family: monospace;
+}
+.label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: x-large;
+}
+
+.input-field {
+  width: 90%;
+  height: 5vh;
+  padding: 10px 15px;
+  border: 1px solid #232222;
+  border-radius: 7px;
+  outline: none;
+  background: none;
+  outline: none;
+  font-family: monospace;
+}
+
+.input-field::placeholder {
+  color: #000000;
+  font-family: "Times New Roman", Times, serif;
+}
+.btn-primary {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: #0069d9;
+}
+
+.regtxt {
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+.loginbtn {
+  font-family: "Times New Roman", Times, serif;
+  background-color: #ffffffb7;
+  color: #070707;
+  font-weight: 500;
+  font-size: 20px;
+  padding: 1% 10%;
+  border: none;
+  border-radius: 37px;
+  cursor: pointer;
+  transition: all 600ms ease;
+  transition: transform 0.2s ease-in-out;
+}
+
+.loginbtn:hover {
+  background-color: #fc0404b9;
+  color: #000000;
+  transform: scale(1.2);
+}
+
+.regbtn {
+  font-family: "Times New Roman", Times, serif;
+  background-color: #ffffffae;
+  color: #000000;
+  font-weight: 500;
+  font-size: 20px;
+  padding: 1% 10%;
+  border: none;
+  border-radius: 37px;
+  cursor: pointer;
+  transition: all 600ms ease;
+  transition: transform 0.2s ease-in-out;
+}
+
+.regbtn:hover {
+  background-color: #fc0404b9;
+  color: #000000;
+  transform: scale(1.2);
+}
+
+.text-center {
+  padding: 10px 15px;
+}
+
+/* Registration Page Styles */
+
+.regform-align {
+  margin-top: 10px;
+  font-size: x-large;
+  font-family: monospace;
+  width: 70%;
+}
+
+.regform-wrapper {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 39%;
+  height: 78vh;
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 0.119);
+  border-radius: 42px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgb(0, 0, 0);
+  font-family: "Times New Roman", Times, serif;
+  
+}
+
+.regform-group {
+  margin-bottom: 7%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.regform-group label {
+  width: 80%;
+  text-align: left;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.regform-group input {
+  width: 130%;
+}
+
+.regformBtn {
+  font-family: "Times New Roman", Times, serif;
+  background-color: #ffffffdd;
+  color: #070707;
+  font-weight: 500;
+  font-size: 20px;
+  padding: 1% 10%;
+  border: none;
+  border-radius: 37px;
+  cursor: pointer;
+  transition: all 600ms ease;
+  transition: transform 0.2s ease-in-out;
+}
+
+.regformBtn:hover {
+  background-color: #fc0404b9;
+  color: #000000;
+  transform: scale(1.2);
+}
+
+.cancelbtn {
+  font-family: "Times New Roman", Times, serif;
+  background-color: #ffffffb1;
+  color: #070707;
+  font-weight: 500;
+  font-size: 20px;
+  padding: 1% 10%;
+  border: none;
+  border-radius: 37px;
+  cursor: pointer;
+  transition: all 600ms ease;
+  transition: transform 0.2s ease-in-out;
+}
+
+.cancelbtn:hover {
+  background-color: #fc0404b9;
+  color: #000000;
+  transform: scale(1.2);
+}
+
+
+
+.hidden {
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(-100%);
+  transition: all 2000ms;
+}
+
+.right {
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(+100%);
+  transition: all 2000ms;
+}
+
+.show {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+}
